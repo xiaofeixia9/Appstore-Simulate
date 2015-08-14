@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B53FA2871B7DFBA200118EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA2861B7DFBA200118EDC /* main.m */; };
 		B53FA28A1B7DFBA200118EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA2891B7DFBA200118EDC /* AppDelegate.m */; };
-		B53FA28D1B7DFBA200118EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA28C1B7DFBA200118EDC /* ViewController.m */; };
-		B53FA2901B7DFBA200118EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53FA28E1B7DFBA200118EDC /* Main.storyboard */; };
 		B53FA2921B7DFBA200118EDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53FA2911B7DFBA200118EDC /* Images.xcassets */; };
 		B53FA2951B7DFBA200118EDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53FA2931B7DFBA200118EDC /* LaunchScreen.xib */; };
 		B53FA2A11B7DFBA200118EDC /* AppStore____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA2A01B7DFBA200118EDC /* AppStore____Tests.m */; };
+		B53FA2AB1B7DFC5900118EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53FA2AA1B7DFC5900118EDC /* Main.storyboard */; };
+		B53FA2AD1B7DFC7800118EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA2AC1B7DFC7800118EDC /* ViewController.m */; };
+		B53FA2B01B7DFC8300118EDC /* HJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FA2AF1B7DFC8300118EDC /* HJScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +34,15 @@
 		B53FA2881B7DFBA200118EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B53FA2891B7DFBA200118EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B53FA28B1B7DFBA200118EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B53FA28C1B7DFBA200118EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B53FA28F1B7DFBA200118EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53FA2911B7DFBA200118EDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B53FA2941B7DFBA200118EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B53FA29A1B7DFBA200118EDC /* AppStore下拉效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppStore下拉效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53FA29F1B7DFBA200118EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53FA2A01B7DFBA200118EDC /* AppStore____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppStore____Tests.m"; sourceTree = "<group>"; };
+		B53FA2AA1B7DFC5900118EDC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B53FA2AC1B7DFC7800118EDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53FA2AE1B7DFC8300118EDC /* HJScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJScrollView.h; sourceTree = "<group>"; };
+		B53FA2AF1B7DFC8300118EDC /* HJScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		B53FA2831B7DFBA200118EDC /* AppStore下拉效果 */ = {
 			isa = PBXGroup;
 			children = (
+				B53FA2AE1B7DFC8300118EDC /* HJScrollView.h */,
+				B53FA2AF1B7DFC8300118EDC /* HJScrollView.m */,
 				B53FA2881B7DFBA200118EDC /* AppDelegate.h */,
 				B53FA2891B7DFBA200118EDC /* AppDelegate.m */,
 				B53FA28B1B7DFBA200118EDC /* ViewController.h */,
-				B53FA28C1B7DFBA200118EDC /* ViewController.m */,
-				B53FA28E1B7DFBA200118EDC /* Main.storyboard */,
+				B53FA2AC1B7DFC7800118EDC /* ViewController.m */,
+				B53FA2AA1B7DFC5900118EDC /* Main.storyboard */,
 				B53FA2911B7DFBA200118EDC /* Images.xcassets */,
 				B53FA2931B7DFBA200118EDC /* LaunchScreen.xib */,
 				B53FA2841B7DFBA200118EDC /* Supporting Files */,
@@ -199,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53FA2901B7DFBA200118EDC /* Main.storyboard in Resources */,
+				B53FA2AB1B7DFC5900118EDC /* Main.storyboard in Resources */,
 				B53FA2951B7DFBA200118EDC /* LaunchScreen.xib in Resources */,
 				B53FA2921B7DFBA200118EDC /* Images.xcassets in Resources */,
 			);
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53FA28D1B7DFBA200118EDC /* ViewController.m in Sources */,
+				B53FA2AD1B7DFC7800118EDC /* ViewController.m in Sources */,
+				B53FA2B01B7DFC8300118EDC /* HJScrollView.m in Sources */,
 				B53FA28A1B7DFBA200118EDC /* AppDelegate.m in Sources */,
 				B53FA2871B7DFBA200118EDC /* main.m in Sources */,
 			);
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B53FA28E1B7DFBA200118EDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B53FA28F1B7DFBA200118EDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B53FA2931B7DFBA200118EDC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +414,7 @@
 				B53FA2A61B7DFBA200118EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B53FA2A71B7DFBA200118EDC /* Build configuration list for PBXNativeTarget "AppStore下拉效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +423,7 @@
 				B53FA2A91B7DFBA200118EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
