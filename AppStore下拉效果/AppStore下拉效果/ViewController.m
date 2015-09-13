@@ -39,6 +39,7 @@ const CGFloat kScrollHeigth = 150;
     // 取消ios7以后为scrollview添加的额外滚动区域
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+    // 取消显示右侧滚动条(可不加)
     self.tableView.showsVerticalScrollIndicator = NO;
     
     // 设置tableview的代理
