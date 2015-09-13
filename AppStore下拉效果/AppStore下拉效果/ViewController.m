@@ -39,6 +39,8 @@ const CGFloat kScrollHeigth = 150;
     // 取消ios7以后为scrollview添加的额外滚动区域
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+    self.tableView.showsVerticalScrollIndicator = NO;
+    
     // 设置tableview的代理
     self.tableView.delegate = self;
     
@@ -49,7 +51,7 @@ const CGFloat kScrollHeigth = 150;
 // 初始化scrollview数据
 - (void)setUpScrollView
 {
-    NSArray *arrays = @[@"ad_00", @"ad_01", @"ad_02", @"ad_03", @"ad_04"];
+    NSArray *arrays = @[@"img_01", @"img_02", @"img_03", @"img_04", @"img_05"];
     self.scrollView.images = arrays;
 }
 
